@@ -1,0 +1,9 @@
+version: "3"
+
+services:
+  markdownpleasecom_static:
+    build: .
+    expose:
+      - 80
+    networks:
+      - "net"
